@@ -1,0 +1,29 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env.local
+frontend/.env.local
+frontend/.env*.local
+!.env.example
+!frontend/.env.example
+
+# Docker volumes and logs
+*.log
+docker/data/
+cretzo_mysql_data/
+
+# Dependencies and build outputs
+node_modules/
+.next/
+dist/
+out/
+build/
+vendor/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tsbuildinfo
